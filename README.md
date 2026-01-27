@@ -3,8 +3,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=riccardo0731&label=Profile%20views&color=0e75b6&style=flat" alt="riccardo0731" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=riccardo0731" alt="riccardo0731" /></a> </p>
-
 - 🔭 I’m currently working on [QuakeFinder](https://github.com/GiZano/Electro-Domestic-Earthquake-Alarm-System)
 
 - 🌱 I’m currently learning **React + Vite**
