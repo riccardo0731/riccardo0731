@@ -1,12 +1,11 @@
 <div align="center">
-
   <img width="250" alt="riccardo0731 Logo" src="https://github.com/user-attachments/assets/badd2ff1-d2ca-411f-9c18-c617723c236b" />
 
-  <h1>Hi, I'm Riccardo (ricardo0731) 👋</h1>
+  <h1>Hi, I'm Riccardo (riccardo0731) 👋</h1>
   <h3>Junior Software Developer & IT Student</h3>
   
   <p>
-    appassionato di <b>Arco</b>, <b>Fotografia</b>, e <b>Full Stack Development (Backend to Fronted)</b>.
+    appassionato di <b>Arco</b>, <b>Fotografia</b>, e <b>Full Stack Development (Backend to Frontend)</b>.
     <br>Approfondendo le mie competenze in <b>Database (SQL, PHP)</b> e <b>Networking (Cisco)</b>.
   </p>
 </div>
@@ -41,6 +40,10 @@
 
 ---
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/riccardo0731/riccardo0731/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-</p>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/riccardo0731/riccardo0731/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/riccardo0731/riccardo0731/output/github-contribution-grid-snake.svg">
+    <img alt="Snake animation" src="https://raw.githubusercontent.com/riccardo0731/riccardo0731/output/github-contribution-grid-snake.svg" />
+  </picture>
+</div>
