@@ -2,8 +2,8 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Esegue ogni mezzanotte
-  workflow_dispatch: # Permette l'esecuzione manuale
+    - cron: "0 0 * * *" 
+  workflow_dispatch:
 
 jobs:
   build:
@@ -12,13 +12,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Generate Snake
+      - name: Generate Snake (Cherry Simulation)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#7b219f&color_dots=#ebedf0,#f4cccc,#ea9999,#e06666,#cc0000
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#32CD32&color_dots=#161b22,#ffb3b3,#ff6666,#ff0000,#8b0000
+            # Versione Light: Sfondo chiaro, serpente verde, frutti rossi accesi
+            dist/github-contribution-grid-snake.svg?color_snake=#2ecc71&color_dots=#ebedf0,#ffcccc,#ff4d4d,#cc0000,#800000
+            
+            # Versione Dark: Sfondo scuro, serpente verde neon, frutti rosso brillante
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00FF00&color_dots=#161b22,#ff4d4d,#ff0000,#cc0000,#7a0000
 
       - name: Push to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
