@@ -1,7 +1,7 @@
 <div align="center">
   
-  <img width="250" alt="riccardo0731 Logo" src="Placeholder.webp" />
-  
+  <img width="250" alt="riccardo0731 Logo" src="https://github.com/user-attachments/assets/807494b8-2a67-4848-b18c-5b192b611439" />
+
   <h1>Hi, I'm Riccardo (ricardo0731) 👋</h1>
   <h3>Junior Software Developer & IT Student</h3>
   
